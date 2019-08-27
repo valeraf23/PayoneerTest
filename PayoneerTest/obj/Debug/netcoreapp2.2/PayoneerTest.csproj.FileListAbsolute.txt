@@ -1,0 +1,15 @@
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\bin\Debug\netcoreapp2.2\nunit.engine.dll
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\bin\Debug\netcoreapp2.2\nunit.engine.api.dll
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\bin\Debug\netcoreapp2.2\PayoneerTest.deps.json
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\bin\Debug\netcoreapp2.2\PayoneerTest.runtimeconfig.json
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\bin\Debug\netcoreapp2.2\PayoneerTest.runtimeconfig.dev.json
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\bin\Debug\netcoreapp2.2\PayoneerTest.dll
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\bin\Debug\netcoreapp2.2\PayoneerTest.pdb
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\obj\Debug\netcoreapp2.2\PayoneerTest.csproj.CoreCompileInputs.cache
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\obj\Debug\netcoreapp2.2\PayoneerTest.AssemblyInfoInputs.cache
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\obj\Debug\netcoreapp2.2\PayoneerTest.AssemblyInfo.cs
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\obj\Debug\netcoreapp2.2\PayoneerTest.dll
+C:\Users\valerii_fedorenko\source\repos\PayoneerTest\PayoneerTest\obj\Debug\netcoreapp2.2\PayoneerTest.pdb
