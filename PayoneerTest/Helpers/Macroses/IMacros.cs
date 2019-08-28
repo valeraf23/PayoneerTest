@@ -1,4 +1,4 @@
-namespace PayoneerTest.Helpers.Macroses.Macros
+namespace PayoneerTest.Helpers.Macroses
 {
     public interface IMacros
     {

@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace PayoneerTest.Helpers.Macroses.Macros
+namespace PayoneerTest.Helpers.Macroses
 {
     public static class Macros
     {

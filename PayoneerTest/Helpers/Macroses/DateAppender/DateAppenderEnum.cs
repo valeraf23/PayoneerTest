@@ -1,4 +1,4 @@
-﻿namespace PayoneerTest.Helpers.Macroses.Macros.DateAppender
+﻿namespace PayoneerTest.Helpers.Macroses.DateAppender
 {
     /// <summary>
     /// Enum used to work with Date Macro

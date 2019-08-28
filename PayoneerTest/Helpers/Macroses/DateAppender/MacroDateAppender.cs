@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace PayoneerTest.Helpers.Macroses.Macros.DateAppender
+namespace PayoneerTest.Helpers.Macroses.DateAppender
 {
     public static class MacroDateAppender
     {

@@ -2,9 +2,9 @@
 using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
-using PayoneerTest.Helpers.Macroses.Macros.DateAppender;
+using PayoneerTest.Helpers.Macroses.DateAppender;
 
-namespace PayoneerTest.Helpers.Macroses.Macros
+namespace PayoneerTest.Helpers.Macroses
 {
     public class MacrosDate : IMacros
     {

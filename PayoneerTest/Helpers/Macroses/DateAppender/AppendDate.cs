@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PayoneerTest.Helpers.Macroses.Macros.DateAppender
+namespace PayoneerTest.Helpers.Macroses.DateAppender
 {
     public static class AppendDate
     {

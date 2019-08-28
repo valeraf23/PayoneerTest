@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Reflection;
 using PayoneerTest.Helpers.GenerationAttributes.Strategies;
+using PayoneerTest.Helpers.Macroses;
 using PayoneerTest.Models;
 
 namespace PayoneerTest.Helpers
@@ -91,7 +92,7 @@ namespace PayoneerTest.Helpers
                 return text;
             }
 
-            text = Macroses.Macros.Macros.Process(valueByDefault ?? text);
+            text = Macros.Process(valueByDefault ?? text);
 
             return text;
         }

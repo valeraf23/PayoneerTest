@@ -1,6 +1,6 @@
 ﻿using VF.Serenity.AutomationFramework.Extensions.StringExtensions;
 
-namespace PayoneerTest.Helpers.Macroses.Macros
+namespace PayoneerTest.Helpers.Macroses
 {
     public class MacrosString : IMacros
     {
