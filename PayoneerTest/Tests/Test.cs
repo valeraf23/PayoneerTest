@@ -11,10 +11,8 @@ namespace PayoneerTest.Tests
     public class Test
     {
         [SetUp]
-        public void Precondition()
-        {
+        public void Precondition() =>
             DriverService.Driver.Get("https://payouts.payoneer.com/partners/or.aspx?pid=Y0LwV0AQC7cY%2b5AIqsZl1g%3d%3d%2");
-        }
 
         [Test]
         public void Reg_Test()
