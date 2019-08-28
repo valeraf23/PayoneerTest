@@ -8,12 +8,16 @@ namespace PayoneerTest.Helpers
 {
     public static class GeneratorModelFactory
     {
+        public static CompanyUserModel GetCompanyUserModel(Action<CompanyUserModel> func)
+        {
+            var model = Get<CompanyUserModel>();
+            func(model);
+            return model;
+        }
+
         public static CompanyUserModel GetCompanyUserModel()
         {
-            var model = new CompanyUserModel();
-            model = Get(model);
-            model.DetailsSecurityInfo.BusinessOrganization = "Private Corporation";
-            model.ContactDataInfo.City = "New York";
+            var model = Get<CompanyUserModel>();
             return model;
         }
 
@@ -25,7 +29,6 @@ namespace PayoneerTest.Helpers
 
         public static T Get<T>() where T : class, new()
         {
-
             var model = new T();
             return Get(model);
         }

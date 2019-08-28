@@ -17,7 +17,11 @@ namespace PayoneerTest.Tests
         [Test]
         public void Reg_Test()
         {
-            var model = GeneratorModelFactory.GetCompanyUserModel();
+            var model = GeneratorModelFactory.GetCompanyUserModel(m =>
+            {
+                m.DetailsSecurityInfo.BusinessOrganization = "Private Corporation";
+                m.ContactDataInfo.City = "New York";
+            });
 
             Steps.RegistrationStep
                 .RegistAsCompanyUser(model)
