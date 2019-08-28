@@ -38,11 +38,11 @@ namespace PayoneerTest.Helpers
             return findByAttribute.Length;
         }
 
-        public static string GetDatePattern(this PropertyInfo propertyInfo)
+        public static string GetDateMacros(this PropertyInfo propertyInfo)
         {
             var findByAttribute =
                 (DateGenerationAttribute) Attribute.GetCustomAttribute(propertyInfo, typeof(DateGenerationAttribute));
-            return findByAttribute.Pattern;
+            return findByAttribute.Macros;
         }
     }
 }

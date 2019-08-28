@@ -21,6 +21,7 @@ namespace PayoneerTest.Tests
             {
                 m.DetailsSecurityInfo.BusinessOrganization = "Private Corporation";
                 m.ContactDataInfo.City = "New York";
+                m.DetailsSecurityInfo.Birthday = "%%today-25years%%";
             });
 
             Steps.RegistrationStep

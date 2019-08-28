@@ -10,6 +10,6 @@ namespace PayoneerTest.Models
         [Generation] public string LastName { get; set; }
         [EmailGeneration] public string Email { get; set; }
         [Generation] public string ConfirmEmail { get; set; }
-        [DateGeneration("MM/dd/yyyy")] public string Birthday { get; set; }
+        [DateGeneration] public string Birthday { get; set; }
     }
 }

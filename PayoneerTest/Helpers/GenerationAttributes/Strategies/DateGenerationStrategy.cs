@@ -1,5 +1,4 @@
-﻿using System;
-using System.Reflection;
+﻿using System.Reflection;
 
 namespace PayoneerTest.Helpers.GenerationAttributes.Strategies
 {
@@ -7,7 +6,6 @@ namespace PayoneerTest.Helpers.GenerationAttributes.Strategies
     {
         public bool IsValid(PropertyInfo property) => property.HasDateGeneratorAttribute();
 
-        public string GetValue(PropertyInfo property) =>
-            DateTime.Today.AddYears(-25).ToString(property.GetDatePattern());
+        public string GetValue(PropertyInfo property) => property.GetDateMacros();
     }
 }

@@ -1,4 +1,5 @@
-﻿using PayoneerTest.Models;
+﻿using System;
+using PayoneerTest.Models;
 using PayoneerTest.Pages;
 using VF.Serenity.AutomationFramework.Infrastructure.Factory;
 
@@ -61,7 +62,7 @@ namespace PayoneerTest.TestSteps
             var detailsSecurityPage = PageFactory.Get<DetailsSecurityPage>();
             detailsSecurityPage.Open();
             detailsSecurityPage.AccountType.SetValue("Company");
-            detailsSecurityPage.Birthday.SetValue(companyUserDetailsSecurityInfo.Birthday);
+            detailsSecurityPage.Birthday.SetValue(DateTime.Parse(companyUserDetailsSecurityInfo.Birthday).ToString("MM/dd/yyyy"));
             detailsSecurityPage.BusinessOrganization.Select(companyUserDetailsSecurityInfo.BusinessOrganization);
             detailsSecurityPage.CompanyName.SetText(companyUserDetailsSecurityInfo.CompanyName);
             detailsSecurityPage.ConfirmEmail.SetText(companyUserDetailsSecurityInfo.Email);
